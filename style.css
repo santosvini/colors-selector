@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  margin: 10px;
+  padding: 4px;
+}
+
+h1 {
+  font: italic bold 2rem cursive ;
+  padding: 2rem;
+  margin: 2px 2px;
+  width: 95%;
+  text-align: center;
+}
+
+section {
+  margin: 50px;
+  padding: 4px;
+  height: 20%;
+
+  align-items: center;
+}
+
+div.colors {
+  font: normal bold 1.5rem cursive;
+  padding: 5px;
+  margin: 16px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+mark.red {
+  background-color: red;
+  cursor: pointer;
+}
+
+mark.green {
+  background-color: green;
+  cursor: pointer;
+
+}
+
+mark.blue {
+  background-color: blue;
+  cursor: pointer;
+}
+
+footer {
+  display: block;
+  font: bold 18px cursive;
+  text-decoration: underline;
+  margin: 18px;
+  padding: 4px;
+  height: 50%;
+  width: 95%;
+  text-align: center;
+  justify-content: center;
+}
+
+footer > p:hover {
+  color: #909497;
+}
