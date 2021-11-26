@@ -8,26 +8,28 @@
   <title>Colors Selector</title>
 </head>
 <body>
-  <h1>Colors Selectors</h1>
+  <h1>COLORS SELECTORS</h1>
   <section>
     <div class="colors">
-      <mark class="red">Red</mark>: <input type="range" min="0" max="255" name="red" id="cred">
+      <mark class="red">Red</mark>: <input onclick="changeColor()" type="range" max="255" id="red">
     </div>
     <div class="colors">
-      <mark class="green">Green</mark>: <input type="range" class="bar" min="0" max="255" name="green" id="cgreen">
+      <mark class="green">Green</mark>: <input onclick="changeColor()" type="range" max="255" id="green">
     </div>
     <div class="colors">
-      <mark class="blue">Blue</mark>: <input type="range" min="0" max="255" name="blue" id="cblue">
+      <mark class="blue">Blue</mark>: <input onclick="changeColor()" type="range" max="255" id="blue">
     </div>
   </section>
   <section>
-    <div class="colors">
-      RGB: <input type="text" id="rgb" placeholder="RGB(255,255,255)" onpaste="return false" >
+    <div class="colors-rgb">
+      <mark>RGB</mark>: <input type="text" id="rgb" max="255" disabled>
     </div>
   </section>
 
   <footer>
-    <p>By ViUs Tech</p>
+    <p><a href="https://github.com/santosvini/colors-selector" target="_blank" class="link">By ViUs Tech</a></p>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
