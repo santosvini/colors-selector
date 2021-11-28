@@ -7,5 +7,4 @@ function changeColor() {
 
   document.body.style.background = "rgb(" + red + "," + green + "," + blue + ")"
 }
-
 changeColor()
